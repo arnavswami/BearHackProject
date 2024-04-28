@@ -1,5 +1,8 @@
 {
   "database": {
-    "rules": "BearHackArnavSwami"
+    "rules": "BearHackArnavSwami.rules.json"
+  },
+  "firestore": {
+    "rules": "ArnavBearHackProject.rules"
   }
 }

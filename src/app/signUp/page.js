@@ -14,6 +14,6 @@ function signUp() {
     const [weight, setWeight] = usesState("");
     const [name, setName] = usesState("");
     const [error, setError] = usesState("");
-    
+    const [zip, setZip] = useState("");
 
 }

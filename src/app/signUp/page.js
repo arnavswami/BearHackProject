@@ -3,7 +3,6 @@ import React, { useState } from "react";
 import { auth, app } from "../../../firebase-config";
 import { createUserWithEmailAndPassword } from "firebase/auth";
 import { getFirestore, doc, setDoc } from "firebase/firestore";
-import { Nova_Flat } from "next/font/google";
 
 const db = getFirestore(app);
 
